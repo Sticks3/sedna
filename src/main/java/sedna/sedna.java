@@ -57,10 +57,7 @@ public class sedna {
         // In a real application, this would look up URLs based on inputUrl.
         // For now, we're just hardcoding a response.
         // these aren't really necessary as I get the linked hrefs later
-        List<String> hardcodedUrls = Arrays.asList("http://sedna.com",
-                "http://sedna.com/about-us",
-                "http://sedna.com/terms-and-conditions",
-                "http://sedna.com/careers");
+        List<String> hardcodedUrls = Arrays.asList("http://sedna.com", "http://sedna.com/about-us", "http://sedna.com/terms-and-conditions", "http://sedna.com/careers");
 
         for (String url : hardcodedUrls) {
             System.out.println("Input: " + url);
